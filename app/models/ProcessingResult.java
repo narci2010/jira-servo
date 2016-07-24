@@ -1,7 +1,7 @@
 package models;
 
 /**
- * Created by tkivrak on 09.03.2016.
+ * Created by bakar on 09.03.2016.
  */
 public class ProcessingResult {
     private int createdIssueCount = 0;

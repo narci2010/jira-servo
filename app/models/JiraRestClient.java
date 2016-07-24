@@ -216,7 +216,6 @@ public class JiraRestClient {
 
                     String issue = post(auth, BASE_URL + "/rest/api/2/issue", createIssueData);
 
-                    System.out.println("sdasdasdasd                 :" + issue);
                     JSONObject issueObj = new JSONObject(issue);
                     if (issueObj.has("errors")) {
                         throw new Exception("Errors from Jira:" + issueObj.get("errors"));
