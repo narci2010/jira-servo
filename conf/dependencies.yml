@@ -1,0 +1,9 @@
+# Application dependencies
+
+require:
+    - play 1.4.2
+    - com.sun.jersey -> jersey-client 1.19
+    - com.sun.jersey -> jersey-core 1.19
+    - org.json -> json 20151123
+    - org.apache.poi -> poi 3.12
+    - org.apache.poi -> poi-ooxml 3.9
